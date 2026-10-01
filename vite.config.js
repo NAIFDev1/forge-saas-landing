@@ -3,10 +3,10 @@ import path from 'node:path'
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-  // Relative asset URLs so the same build works at a domain root, at a
-  // GitHub Pages subpath (/forge-saas-landing/), and in local previews.
-  // Absolute "/assets/..." would 404 on a Pages subpath.
-  base: './',
+  // GitHub Pages serves this app from https://<user>.github.io/forge-saas-landing/,
+  // so asset URLs need the repo prefix. A bare "/assets/..." would resolve
+  // against the domain root and 404, leaving the page blank.
+  base: process.env.NODE_ENV === 'production' ? '/forge-saas-landing/' : '/',
   plugins: [react()],
   resolve: {
     alias: {
