@@ -3,10 +3,12 @@ import path from 'node:path'
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-  // GitHub Pages serves this app from https://<user>.github.io/forge-saas-landing/,
-  // so asset URLs need the repo prefix. A bare "/assets/..." would resolve
-  // against the domain root and 404, leaving the page blank.
-  base: process.env.NODE_ENV === 'production' ? '/forge-saas-landing/' : '/',
+  // Assets resolve relative to where the site is served from:
+  //   PAGES=1  -> GitHub Pages subpath (/forge-saas-landing/)
+  //   default  -> a domain root (Cloudflare Workers, Vercel, local preview)
+  // Vite forces NODE_ENV=production during `vite build`, so key off an
+  // explicit flag rather than NODE_ENV.
+  base: process.env.PAGES === '1' ? '/forge-saas-landing/' : '/',
   plugins: [react()],
   resolve: {
     alias: {
