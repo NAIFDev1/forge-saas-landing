@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 240 10% 4%; /* #0a0a0d */
+    --foreground: 0 0% 96%;
+    --card: 240 9% 6%;
+    --card-foreground: 0 0% 96%;
+    --primary: 187 92% 53%; /* cyan #22d3ee */
+    --primary-foreground: 200 80% 9%;
+    --secondary: 240 8% 13%;
+    --secondary-foreground: 0 0% 92%;
+    --muted: 240 8% 11%;
+    --muted-foreground: 240 6% 64%;
+    --accent: 199 95% 62%; /* sky */
+    --accent-foreground: 210 60% 8%;
+    --border: 240 8% 16%;
+    --input: 240 8% 16%;
+    --ring: 187 92% 53%;
+    --radius: 0.6rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+  }
+
+  body {
+    @apply bg-background font-sans text-foreground antialiased selection:bg-primary/30;
+  }
+
+  .text-gradient {
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(115deg, #f8fafc 0%, #94a3b8 55%, #22d3ee 100%);
+  }
+
+  /* Technical grid background */
+  .bg-grid {
+    background-image:
+      linear-gradient(to right, hsl(240 8% 22% / 0.4) 1px, transparent 1px),
+      linear-gradient(to bottom, hsl(240 8% 22% / 0.4) 1px, transparent 1px);
+    background-size: 54px 54px;
+    mask-image: radial-gradient(ellipse 90% 70% at 50% 0%, black 40%, transparent 100%);
+  }
+
+  /* Thin dotted texture for code areas */
+  .bg-dots {
+    background-image: radial-gradient(hsl(240 6% 30% / 0.5) 1px, transparent 1px);
+    background-size: 22px 22px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
