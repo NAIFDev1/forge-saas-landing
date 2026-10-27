@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "description": "Premium landing page for Forge, a fictional developer platform. Dark-first design built with React, Vite, Tailwind CSS, shadcn/ui & Framer Motion.",
+  "description": "An interactive release-board landing page for Forge, a fictional developer platform. Built with React, Vite, Tailwind CSS, and Framer Motion.",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

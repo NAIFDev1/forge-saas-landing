@@ -7,3 +7,8 @@ node
 .DS_Store
 npm-debug.log*
 .vercel
+.taste-skill/
+.impeccable/review/
+.impeccable/questions/
+.impeccable/mocks/
+.impeccable/build/
