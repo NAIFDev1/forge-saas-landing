@@ -30,6 +30,8 @@ jobs:
 
       - name: Build
         run: npm run build
+        env:
+          PAGES: '1'
 
       - uses: actions/configure-pages@v5
 

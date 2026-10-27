@@ -1,0 +1,426 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-27T18:36:41.460Z",
+  "title": "Design System: Forge",
+  "extensions": {
+    "colorMeta": {
+      "ground": {
+        "role": "neutral",
+        "displayName": "Ground",
+        "tonalRamp": [
+          "oklch(15% 0.0037 81.79)",
+          "oklch(26% 0.0068 81.79)",
+          "oklch(38% 0.0089 81.79)",
+          "oklch(49% 0.0104 81.79)",
+          "oklch(61% 0.0104 81.79)",
+          "oklch(72% 0.0089 81.79)",
+          "oklch(84% 0.0063 81.79)",
+          "oklch(95% 0.0021 81.79)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Surface",
+        "tonalRamp": [
+          "oklch(15% 0.0030 84.57)",
+          "oklch(26% 0.0056 84.57)",
+          "oklch(38% 0.0074 84.57)",
+          "oklch(49% 0.0087 84.57)",
+          "oklch(61% 0.0087 84.57)",
+          "oklch(72% 0.0074 84.57)",
+          "oklch(84% 0.0052 84.57)",
+          "oklch(95% 0.0017 84.57)"
+        ]
+      },
+      "surface-deep": {
+        "role": "neutral",
+        "displayName": "Surface Deep",
+        "tonalRamp": [
+          "oklch(15% 0.0043 79.78)",
+          "oklch(26% 0.0080 79.78)",
+          "oklch(38% 0.0104 79.78)",
+          "oklch(49% 0.0123 79.78)",
+          "oklch(61% 0.0123 79.78)",
+          "oklch(72% 0.0104 79.78)",
+          "oklch(84% 0.0074 79.78)",
+          "oklch(95% 0.0025 79.78)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "tonalRamp": [
+          "oklch(15% 0.0024 88.64)",
+          "oklch(26% 0.0045 88.64)",
+          "oklch(38% 0.0059 88.64)",
+          "oklch(49% 0.0070 88.64)",
+          "oklch(61% 0.0070 88.64)",
+          "oklch(72% 0.0059 88.64)",
+          "oklch(84% 0.0042 88.64)",
+          "oklch(95% 0.0014 88.64)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0032 159.40)",
+          "oklch(26% 0.0059 159.40)",
+          "oklch(38% 0.0077 159.40)",
+          "oklch(49% 0.0091 159.40)",
+          "oklch(61% 0.0091 159.40)",
+          "oklch(72% 0.0077 159.40)",
+          "oklch(84% 0.0055 159.40)",
+          "oklch(95% 0.0018 159.40)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted",
+        "tonalRamp": [
+          "oklch(15% 0.0045 136.62)",
+          "oklch(26% 0.0084 136.62)",
+          "oklch(38% 0.0110 136.62)",
+          "oklch(49% 0.0129 136.62)",
+          "oklch(61% 0.0129 136.62)",
+          "oklch(72% 0.0110 136.62)",
+          "oklch(84% 0.0078 136.62)",
+          "oklch(95% 0.0026 136.62)"
+        ]
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "Accent",
+        "tonalRamp": [
+          "oklch(15% 0.0269 218.33)",
+          "oklch(26% 0.0499 218.33)",
+          "oklch(38% 0.0653 218.33)",
+          "oklch(49% 0.0768 218.33)",
+          "oklch(61% 0.0768 218.33)",
+          "oklch(72% 0.0653 218.33)",
+          "oklch(84% 0.0461 218.33)",
+          "oklch(95% 0.0154 218.33)"
+        ]
+      },
+      "accent-hover": {
+        "role": "primary",
+        "displayName": "Accent Hover",
+        "tonalRamp": [
+          "oklch(15% 0.0231 218.78)",
+          "oklch(26% 0.0429 218.78)",
+          "oklch(38% 0.0561 218.78)",
+          "oklch(49% 0.0660 218.78)",
+          "oklch(61% 0.0660 218.78)",
+          "oklch(72% 0.0561 218.78)",
+          "oklch(84% 0.0396 218.78)",
+          "oklch(95% 0.0132 218.78)"
+        ]
+      },
+      "on-accent": {
+        "role": "neutral",
+        "displayName": "On Accent",
+        "tonalRamp": [
+          "oklch(15% 0.0000 89.88)",
+          "oklch(26% 0.0000 89.88)",
+          "oklch(38% 0.0000 89.88)",
+          "oklch(49% 0.0000 89.88)",
+          "oklch(61% 0.0000 89.88)",
+          "oklch(72% 0.0000 89.88)",
+          "oklch(84% 0.0000 89.88)",
+          "oklch(95% 0.0000 89.88)"
+        ]
+      },
+      "dark": {
+        "role": "neutral",
+        "displayName": "Dark",
+        "tonalRamp": [
+          "oklch(15% 0.0055 182.83)",
+          "oklch(26% 0.0102 182.83)",
+          "oklch(38% 0.0133 182.83)",
+          "oklch(49% 0.0156 182.83)",
+          "oklch(61% 0.0156 182.83)",
+          "oklch(72% 0.0133 182.83)",
+          "oklch(84% 0.0094 182.83)",
+          "oklch(95% 0.0031 182.83)"
+        ]
+      },
+      "dark-raised": {
+        "role": "neutral",
+        "displayName": "Dark Raised",
+        "tonalRamp": [
+          "oklch(15% 0.0055 176.95)",
+          "oklch(26% 0.0102 176.95)",
+          "oklch(38% 0.0133 176.95)",
+          "oklch(49% 0.0156 176.95)",
+          "oklch(61% 0.0156 176.95)",
+          "oklch(72% 0.0133 176.95)",
+          "oklch(84% 0.0094 176.95)",
+          "oklch(95% 0.0031 176.95)"
+        ]
+      },
+      "dark-ink": {
+        "role": "neutral",
+        "displayName": "Dark Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0042 116.81)",
+          "oklch(26% 0.0079 116.81)",
+          "oklch(38% 0.0103 116.81)",
+          "oklch(49% 0.0121 116.81)",
+          "oklch(61% 0.0121 116.81)",
+          "oklch(72% 0.0103 116.81)",
+          "oklch(84% 0.0073 116.81)",
+          "oklch(95% 0.0024 116.81)"
+        ]
+      },
+      "dark-muted": {
+        "role": "neutral",
+        "displayName": "Dark Muted",
+        "tonalRamp": [
+          "oklch(15% 0.0061 168.39)",
+          "oklch(26% 0.0113 168.39)",
+          "oklch(38% 0.0148 168.39)",
+          "oklch(49% 0.0174 168.39)",
+          "oklch(61% 0.0174 168.39)",
+          "oklch(72% 0.0148 168.39)",
+          "oklch(84% 0.0104 168.39)",
+          "oklch(95% 0.0035 168.39)"
+        ]
+      },
+      "success": {
+        "role": "secondary",
+        "displayName": "Success",
+        "tonalRamp": [
+          "oklch(15% 0.0259 162.07)",
+          "oklch(26% 0.0482 162.07)",
+          "oklch(38% 0.0630 162.07)",
+          "oklch(49% 0.0741 162.07)",
+          "oklch(61% 0.0741 162.07)",
+          "oklch(72% 0.0630 162.07)",
+          "oklch(84% 0.0445 162.07)",
+          "oklch(95% 0.0148 162.07)"
+        ]
+      },
+      "success-light": {
+        "role": "secondary",
+        "displayName": "Success Light",
+        "tonalRamp": [
+          "oklch(15% 0.0200 159.33)",
+          "oklch(26% 0.0372 159.33)",
+          "oklch(38% 0.0487 159.33)",
+          "oklch(49% 0.0573 159.33)",
+          "oklch(61% 0.0573 159.33)",
+          "oklch(72% 0.0487 159.33)",
+          "oklch(84% 0.0344 159.33)",
+          "oklch(95% 0.0115 159.33)"
+        ]
+      },
+      "failure": {
+        "role": "secondary",
+        "displayName": "Failure",
+        "tonalRamp": [
+          "oklch(15% 0.0520 27.81)",
+          "oklch(26% 0.0967 27.81)",
+          "oklch(38% 0.1264 27.81)",
+          "oklch(49% 0.1487 27.81)",
+          "oklch(61% 0.1487 27.81)",
+          "oklch(72% 0.1264 27.81)",
+          "oklch(84% 0.0892 27.81)",
+          "oklch(95% 0.0297 27.81)"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Rule",
+        "tonalRamp": [
+          "oklch(15% 0.0029 121.64)",
+          "oklch(26% 0.0054 121.64)",
+          "oklch(38% 0.0071 121.64)",
+          "oklch(49% 0.0084 121.64)",
+          "oklch(61% 0.0084 121.64)",
+          "oklch(72% 0.0071 121.64)",
+          "oklch(84% 0.0050 121.64)",
+          "oklch(95% 0.0017 121.64)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero headline; breakpoint-specific sizes are described in DESIGN.md."
+      },
+      "code": {
+        "displayName": "Literal Code",
+        "purpose": "Commands, identifiers, and source examples only."
+      }
+    },
+    "shadows": [
+      {
+        "name": "mobile-menu",
+        "value": "0 18px 35px #20252225",
+        "purpose": "Floating mobile navigation only."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Shared reveal and transform easing."
+      },
+      {
+        "name": "reveal",
+        "value": "0.8s",
+        "purpose": "22px content translation; bypassed for reduced motion."
+      },
+      {
+        "name": "state-color",
+        "value": "0.2s",
+        "purpose": "Background and text color transitions."
+      },
+      {
+        "name": "state-transform",
+        "value": "0.3s",
+        "purpose": "Button hover and press transforms."
+      },
+      {
+        "name": "console-shutter",
+        "value": "1.15s",
+        "purpose": "Entry console clip-path reveal."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide",
+        "value": "1600px"
+      },
+      {
+        "name": "compact-desktop",
+        "value": "1100px"
+      },
+      {
+        "name": "tablet",
+        "value": "800px"
+      },
+      {
+        "name": "mobile",
+        "value": "520px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Dark Button",
+      "kind": "button",
+      "refersTo": "button-dark",
+      "description": "Square primary action; choose its tone for the containing field.",
+      "html": "<button class=\"ds-button ds-dark\">Run the demo <svg width=\"19\" height=\"19\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></button>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:space-between;gap:32px;min-height:54px;padding:15px 22px;border:0;border-radius:0;font:500 15px Switzer,sans-serif;cursor:pointer;transition:background-color .2s,transform .3s cubic-bezier(.16,1,.3,1)}.ds-button:hover{transform:translateY(-2px)}.ds-button:active{transform:translateY(1px)}.ds-button:focus-visible{outline:3px solid var(--accent,#256f82);outline-offset:5px}.ds-dark{background:var(--ink,#202522);color:var(--paper,#f6f4ef)}.ds-dark:hover{background:var(--dark-raised,#2d3835)}"
+    },
+    {
+      "name": "Light Button",
+      "kind": "button",
+      "refersTo": "button-light",
+      "description": "Square primary action; choose its tone for the containing field.",
+      "html": "<button class=\"ds-button ds-light\">Run the demo <svg width=\"19\" height=\"19\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></button>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:space-between;gap:32px;min-height:54px;padding:15px 22px;border:0;border-radius:0;font:500 15px Switzer,sans-serif;cursor:pointer;transition:background-color .2s,transform .3s cubic-bezier(.16,1,.3,1)}.ds-button:hover{transform:translateY(-2px)}.ds-button:active{transform:translateY(1px)}.ds-button:focus-visible{outline:3px solid var(--accent,#256f82);outline-offset:5px}.ds-light{background:var(--paper,#f6f4ef);color:var(--ink,#202522)}.ds-light:hover{background:var(--ground,#dedad3)}"
+    },
+    {
+      "name": "Teal Button",
+      "kind": "button",
+      "refersTo": "button-teal",
+      "description": "Square primary action; choose its tone for the containing field.",
+      "html": "<button class=\"ds-button ds-teal\">Run the demo <svg width=\"19\" height=\"19\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></button>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:space-between;gap:32px;min-height:54px;padding:15px 22px;border:0;border-radius:0;font:500 15px Switzer,sans-serif;cursor:pointer;transition:background-color .2s,transform .3s cubic-bezier(.16,1,.3,1)}.ds-button:hover{transform:translateY(-2px)}.ds-button:active{transform:translateY(1px)}.ds-button:focus-visible{outline:3px solid var(--accent,#256f82);outline-offset:5px}.ds-teal{background:var(--accent,#256f82);color:var(--on-accent,#fff)}.ds-teal:hover{background:var(--accent-hover,#1c5969)}"
+    },
+    {
+      "name": "Environment Select",
+      "kind": "input",
+      "refersTo": "environment-select",
+      "description": "Native field with a filled neutral wrapper and custom SVG indicator.",
+      "html": "<label class=\"ds-select\">Environment <select aria-label=\"Environment\"><option>Production</option><option>Staging</option><option>Preview</option></select><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"m6 9 6 6 6-6\"/></svg></label>",
+      "css": ".ds-select{display:inline-flex;align-items:center;gap:8px;font:12px Switzer,sans-serif;background:var(--surface,#ebe8e2);color:var(--ink,#202522);padding:0 10px;min-height:36px}.ds-select select{appearance:none;border:0;background:none;color:inherit;font:inherit;padding:8px 20px 8px 0;cursor:pointer;max-width:140px}.ds-select svg{margin-left:-25px;pointer-events:none}.ds-select select:focus-visible{outline:3px solid var(--accent,#256f82);outline-offset:5px}"
+    },
+    {
+      "name": "Main Navigation",
+      "kind": "nav",
+      "description": "Plain sentence-case links across the desktop header.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Main navigation\"><a href=\"#product\">Product</a><a href=\"#developers\">Developers</a><a href=\"#pricing\">Pricing</a><a href=\"#changelog\">Changelog</a></nav>",
+      "css": ".ds-nav{display:flex;gap:30px;flex-wrap:wrap;color:var(--ink,#202522);font:15px Switzer,sans-serif}.ds-nav a{display:flex;align-items:center;min-height:44px;color:inherit;text-decoration:none;transition:color .2s}.ds-nav a:hover{color:var(--accent,#256f82)}.ds-nav a:focus-visible{outline:3px solid var(--accent,#256f82);outline-offset:5px}"
+    },
+    {
+      "name": "Environment Label",
+      "kind": "chip",
+      "refersTo": "environment-label",
+      "description": "Square metadata label inside a charcoal interface.",
+      "html": "<span class=\"ds-environment\">Production</span>",
+      "css": ".ds-environment{display:inline-block;background:var(--dark-raised,#2d3835);color:var(--dark-ink,#f0f2e9);padding:6px 10px;font:13px Switzer,sans-serif}"
+    },
+    {
+      "name": "Inset Application Sheet",
+      "kind": "card",
+      "refersTo": "workspace-sheet",
+      "description": "The rounded paper exception inside a square tinted application frame.",
+      "html": "<div class=\"ds-frame\"><section class=\"ds-sheet\"><h3>Deployments</h3><p>api-server / production</p><button class=\"ds-release\"><span class=\"ds-dot\"></span><strong>feat: ready for the world</strong><span>Ready</span></button></section></div>",
+      "css": ".ds-frame{background:var(--surface-deep,#d3cec6);padding:32px;color:var(--ink,#202522);font:14px Switzer,sans-serif}.ds-sheet{background:var(--paper,#f6f4ef);border:1px solid var(--rule,#dcded8);border-radius:14px;padding:25px}.ds-sheet h3{font-size:24px;letter-spacing:-.035em;font-weight:500;margin:0 0 16px}.ds-sheet p{color:var(--muted,#50554e);font-size:12px;margin:0 0 22px}.ds-release{display:flex;align-items:center;gap:13px;width:100%;padding:14px 12px;background:none;border:0;border-top:1px solid var(--rule,#dcded8);color:inherit;text-align:left;cursor:pointer;font:13px Switzer,sans-serif}.ds-release strong{flex:1;font-weight:500}.ds-release:hover{background:var(--surface,#ebe8e2)}.ds-release:focus-visible{outline:3px solid var(--success-light,#a5d0b7);outline-offset:5px}.ds-dot{width:7px;height:7px;border-radius:50%;background:var(--success,#336c52)}"
+    },
+    {
+      "name": "Workspace Tabs",
+      "kind": "custom",
+      "description": "Application tabs use a selected petrol underline and native data separator.",
+      "html": "<div class=\"ds-tabs\" role=\"tablist\" aria-label=\"Workspace\"><button role=\"tab\" aria-selected=\"true\">Deployments</button><button role=\"tab\" aria-selected=\"false\" tabindex=\"-1\">Logs</button><button role=\"tab\" aria-selected=\"false\" tabindex=\"-1\">Usage</button></div>",
+      "css": ".ds-tabs{display:flex;gap:24px;border-bottom:1px solid var(--rule,#dcded8);font:13px Switzer,sans-serif}.ds-tabs button{min-height:44px;padding:10px 0;border:0;background:none;color:var(--muted,#50554e);font:inherit;position:relative;cursor:pointer}.ds-tabs button:hover{color:var(--ink,#202522)}.ds-tabs button[aria-selected=true]{color:var(--ink,#202522)}.ds-tabs button[aria-selected=true]:after{content:\"\";position:absolute;bottom:-1px;left:0;right:0;height:2px;background:var(--accent,#256f82)}.ds-tabs button:focus-visible{outline:3px solid var(--success-light,#a5d0b7);outline-offset:5px}"
+    },
+    {
+      "name": "Code Panel",
+      "kind": "custom",
+      "description": "Charcoal example with toolbar and copy affordance; production component supplies clipboard behavior.",
+      "html": "<section class=\"ds-code\"><div class=\"ds-toolbar\"><span>deploy.js</span><button type=\"button\"><svg width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><rect x=\"8\" y=\"8\" width=\"12\" height=\"12\" rx=\"2\"/><path d=\"M16 8V4H4v12h4\"/></svg>Copy</button></div><pre><code>const deployment = await forge.deployments.create({\n  project: 'api-server',\n  branch: 'main',\n})</code></pre></section>",
+      "css": ".ds-code{background:var(--dark,#202b29);color:var(--dark-ink,#f0f2e9);font:13px Switzer,sans-serif}.ds-toolbar{display:flex;justify-content:space-between;gap:20px;align-items:center;padding:8px 20px;color:var(--dark-muted,#bac8c2)}.ds-toolbar button{display:flex;gap:7px;align-items:center;min-height:40px;min-width:70px;padding:5px;font:12px Switzer,sans-serif;color:var(--dark-ink,#f0f2e9);background:none;border:0;cursor:pointer}.ds-toolbar button:hover{color:var(--success-light,#a5d0b7)}.ds-toolbar button:focus-visible{outline:3px solid var(--success-light,#a5d0b7);outline-offset:5px}.ds-code pre{margin:0;padding:8px 20px 24px;white-space:pre-wrap;overflow-wrap:anywhere;font:14px/1.85 \"Courier New\",monospace;color:var(--dark-muted,#bac8c2)}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The well-kept release board",
+    "overview": "Forge presents a developer workflow as fitted working cells: warm putty surrounds quiet paper surfaces, charcoal consoles, and purposeful petrol actions. Large plainspoken type gives the page confidence; compact interface details supply the evidence.\n\nThe system treats the product demonstration as real interface work. A tinted frame holds an inset application sheet, with readable release records, visible control states, and honest local feedback. Typography and authored SVG carry the identity; no raster imagery is needed.",
+    "keyCharacteristics": [
+      "Warm neutral fields and charcoal working panels.",
+      "Square page cells with narrow seams.",
+      "One self-hosted sans family, with monospace confined to literal code.",
+      "An inset rounded application sheet inside a square frame.",
+      "Visible, keyboard-operable product evidence."
+    ],
+    "rules": [
+      {
+        "name": "The Working Color Rule",
+        "body": "Accent and status colors identify actions, selected content, or release state; maintain text or icon cues alongside status color.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Reading Voice Rule",
+        "body": "Use Switzer for interface and editorial text; reserve monospace for literal code, commands, and identifiers.",
+        "section": "typography"
+      },
+      {
+        "name": "The Fitted Field Rule",
+        "body": "Separate page content with filled tonal fields and narrow seams; reserve fine rules for native application data and tabs.",
+        "section": "layout"
+      },
+      {
+        "name": "The Tonal Depth Rule",
+        "body": "Build permanent hierarchy with adjacent tones; use a shadow for the floating menu overlay.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** preserve fitted tonal cells, narrow seams, and generous section intervals.",
+      "**Do** use the inset sheet as the rounded application exception.",
+      "**Do** keep status labels, visible focus, keyboard controls, and reduced-motion support.",
+      "**Do** reflow real interface content into readable mobile rows.",
+      "**Do** label illustrative deployments, code, and plans honestly."
+    ],
+    "donts": [
+      "**Don't** introduce a different display family into the established Switzer system.",
+      "**Don't** apply resting shadows or rounded card styling across the square page cells.",
+      "**Don't** replace operative product fragments with decorative raster screenshots.",
+      "**Don't** reuse historical `src/index.css` tokens; `src/main.jsx` imports `src/forge.css`."
+    ]
+  }
+}
